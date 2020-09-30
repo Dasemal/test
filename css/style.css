@@ -1,0 +1,22 @@
+body{
+    background-color: crimson;
+    font-family: sans-serif sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,ul,ol,p{
+    color: rgb(94, 2, 22);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(94, 2, 22);
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+li:hover {
+    font-weight: bold;
+}
