@@ -20,7 +20,7 @@ header {
     text-align: center;
 }
 
-aside {
+#aside1 {
     background-color: lightcoral;
     width: 20%;
     display: inline-block;
@@ -32,15 +32,27 @@ aside {
     overflow: auto;
     bottom: 0px;
 }
+#aside2 {
+    background-color: lightcoral;
+    width: 20%;
+    display: inline-block;
+    padding-right: 1%;
+    vertical-align: top;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    overflow: auto;
+    bottom: 40px;
+}
 
 main {
     background-color: lightskyblue;
     display: inline-block;
     border-left-style: solid;
-    width: 80%;
+    width: 60%;
     padding-left: 1%;
     position: absolute;
-    right: 0;
+    right: 20%;
     top: 50px;
     bottom: 40px;
     overflow: auto;
