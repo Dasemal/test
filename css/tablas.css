@@ -1,0 +1,22 @@
+table {
+    border-collapse: separate;
+    text-align: center;
+}
+td,th {
+    border-style: solid;
+    border-width: 2px;
+}
+td {
+    background-color: crimson;
+    border-radius: 11px;
+}
+th {
+    background-color: rgb(180, 12, 45);
+    border-radius: 11px;
+}
+.encabezado {
+    background-color: rgb(235, 51, 51);
+}
+.negrita {
+    font-weight: bold;
+}
