@@ -1,0 +1,18 @@
+ul{
+    list-style: none;
+}
+ul ul{
+    display: none;
+}
+li{
+    background-color: crimson;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+li:hover > ul{
+    display: block;
+}

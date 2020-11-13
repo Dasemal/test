@@ -22,6 +22,12 @@ main{
     height: 90%;
     position: absolute;
 overflow: auto;
+
+}
+main > p{
+
+    transition-property: text-color, color;
+    transition-duration: 5s;
 }
 
 /* Versión para tablet */
