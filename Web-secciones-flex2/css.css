@@ -6,35 +6,62 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    overflow: scroll;
 }
-body, aside, main, nav, footer, header{
+body, main, aside, nav, footer, header{
     flex-basis: 100%;
-    border-style: solid;
-    border-width: 1px;
+    width: 100%;
     padding: 15px;
     text-align: center;
+    right: 0%;
+    left: 0%;
+
+}
+body{
+    bottom: 0%;
+    
+    top: 0%;
 }
 
 header{
     background-color: rgb(212, 195, 99);
-
+    position: static;
     text-align: center;
 }
 nav{
     background-color: lightpink;
 
     text-align: center;
+
+    
     
 }
 
 aside{
     background-color: maroon;
     text-align: center;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+
  
 }
 footer{
 
+    display: none;
+
     background-color: magenta;
 
     text-align: center;
+}
+
+section{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    background-color: darkgreen;
+    display: flex;
+    height: 250%;
 }
