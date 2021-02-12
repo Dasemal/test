@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dasemal/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dasemal/test/issues"
+  },
+  "homepage": "https://github.com/Dasemal/test#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
